@@ -1,0 +1,134 @@
+.mat-mdc-button {
+  font-size: 18px;
+}
+
+.mat-mdc-icon-button {
+  &:hover {
+    background: $text-btn-hover-color;
+  }
+
+  &:active {
+    background: $text-btn-pressed-color;
+  }
+}
+
+.mat-mdc-raised-button {
+  color: white !important;
+  background-color: $default-color !important;
+  border-radius: 37px !important;
+  width: 134px;
+  min-height: 53px;
+  font-size: 18px !important;
+  padding: 16px 22px !important;
+  line-height: 0px !important;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:disabled {
+    background-color: $disabled-color;
+  }
+
+  &:active {
+    background-color: $pressed-color;
+  }
+}
+
+.mat-mdc-icon-button .mat-icon {
+  color: #304879;
+}
+
+.mat-mdc-icon-button[disabled] {
+  .mat-icon {
+    color: #a8b0bf;
+  }
+}
+
+.cdk-dialog-container {
+  width: 448px !important;
+  height: 593px;
+  border-radius: $border-radius;
+  background: rgb(38, 50, 56, 32);
+}
+
+.mat-mdc-button:not(:disabled) {
+  color: $default-color !important;
+  padding: 16px 22px !important;
+  min-width: 109px;
+  min-height: 53px;
+
+  &:hover {
+    background: $text-btn-hover-color;
+    border-radius: 37px;
+  }
+
+  &:active {
+    background: $text-btn-pressed-color;
+    border-radius: 37px;
+  }
+}
+
+.mdc-text-field--outlined {
+  color: $text-field-default !important;
+
+  &:active {
+    color: $text-field-active !important;
+  }
+}
+
+.mat-input-invalid .mat-input-ripple {
+  color: $text-field-error;
+}
+
+.mat-mdc-form-field-error {
+  text-align: end;
+}
+
+.cdk-global-overlay-wrapper {
+  background: rgba(38, 50, 56, 0.5);
+}
+
+// .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background,
+.mdc-checkbox__native-control:enabled:indeterminate
+  ~ .mdc-checkbox__background {
+  background-color: #4a95f7 !important;
+  border-color: #4a95f7 !important;
+}
+
+.mdc-checkbox-layout {
+  background-color: #4a95f7;
+}
+
+.mat-mdc-checkbox.mat-mdc-checkbox-checked .mdc-checkbox__background,
+.mdc-checkbox__ripple,
+.mdc-checkbox__checkmark {
+  background-color: #4a95f7 !important;
+  border-color: #4a95f7 !important;
+}
+
+.mdc-notched-outline {
+  border-radius: 4px !important;
+  border-color: $text-field-default !important;
+}
+
+.mat-form-field-invalid .mdc-notched-outline {
+  border-radius: 4px !important;
+  border-color: $text-field-error !important;
+}
+
+.mdc-dialog__surface {
+  border-radius: 20px !important;
+}
+
+.mdc-dialog__title,
+.mdc-dialog__content,
+.mdc-dialog__actions {
+  padding: 0px !important;
+}
+
+.mat-mdc-row:hover {
+  background-color: rgba(143, 175, 255, 0.08);
+  cursor: pointer;
+}
+

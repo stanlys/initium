@@ -1,0 +1,21 @@
+<div class="confirm-wrapper">
+  <section>
+    <h2 mat-dialog-title>Удаление строк</h2>
+    <mat-dialog-content class="message">
+      Удалить выбранные строки ({{ rowCount }})?
+    </mat-dialog-content>
+  </section>
+  <mat-dialog-actions>
+    <button mat-button mat-dialog-close [mat-dialog-close]="false">
+      Отмена
+    </button>
+    <button
+      mat-raised-button
+      mat-dialog-close
+      cdkFocusInitial
+      [mat-dialog-close]="true"
+    >
+      Удалить
+    </button>
+  </mat-dialog-actions>
+</div>

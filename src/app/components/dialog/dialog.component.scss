@@ -1,0 +1,26 @@
+@import "./../../../variables.scss";
+
+.mat-mdc-dialog-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.confirm-wrapper {
+  padding: 34px 40px 40px 40px;
+}
+
+h2 {
+  color: #231f20;
+  height: 28px;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}

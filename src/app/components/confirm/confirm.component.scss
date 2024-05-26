@@ -1,0 +1,35 @@
+.confirm-wrapper {
+  border-radius: 20px;
+  padding: 44px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  h2 {
+    color: #231f20;
+    height: 28px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    .message {
+      width: 368px;
+      height: 85px;
+
+      color: #263238;
+      font-size: 18px;
+      letter-spacing: 0.25px;
+      line-height: 22px;
+    }
+  }
+  .mat-mdc-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
